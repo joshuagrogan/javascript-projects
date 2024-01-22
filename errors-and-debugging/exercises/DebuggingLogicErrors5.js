@@ -1,6 +1,6 @@
 let launchReady = false;
 let crewReady = false;
-let fuelLevel = 17000;
+let fuelLevel = 20000;
 let crewStatus = true;
 let computerStatus = 'green';
 
@@ -21,3 +21,5 @@ if (crewStatus && computerStatus === 'green'){
    crewReady = false;
 }
 console.log("crewReady = ", crewReady);
+if (crewReady = true){console.log("10, 9, 8, 7, 6, 5, 4, 3, 2, 1, LIFTOFF!")
+} else {console.log("Launch scrubbed")}
